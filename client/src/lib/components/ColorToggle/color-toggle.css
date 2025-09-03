@@ -1,0 +1,18 @@
+.dark-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--btn-bg);
+  color: var(--btn-text);
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 22px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s, color 0.3s, transform 0.2s;
+}
+
+.dark-toggle:hover {
+  transform: scale(1.1);
+}
