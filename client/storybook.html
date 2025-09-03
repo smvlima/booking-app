@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Storybook</title>
+    <link rel="stylesheet" href="src/lib/styles/global.css" />
+    <link rel="stylesheet" href="src/lib/styles/button.css" />
+  </head>
+  <body>
+    <h1>Component Library</h1>
+    <div id="storybook">
+      <button class="button" onclick="alert('ola')">jisas</button>
+    </div>
+
+    <script type="module">
+      const root = document.getElementById("storybook");
+
+      root.appendChild(createButton("Click me", alert("Botão clicado!")));
+
+      // // Header
+      // root.appendChild(createHeader("Dashboard"));
+
+      // // Tabs
+      // root.appendChild(createTabs([
+      //   { label: "Tab 1", content: "Conteúdo da Tab 1" },
+      //   { label: "Tab 2", content: "Conteúdo da Tab 2" }
+      // ]));
+    </script>
+  </body>
+</html>

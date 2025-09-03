@@ -1,0 +1,17 @@
+[data-theme="dark"] {
+  /* Paleta dark */
+  --bg-color: #121212;
+  --text-color: #eeeeee;
+  --primary-color: #4dabf7;
+  --btn-bg: var(--primary-color);
+  --btn-text: #000000;
+}
+
+:root {
+  /* Paleta light */
+  --bg-color: #ffffff;
+  --text-color: #222222;
+  --primary-color: #007bff;
+  --btn-bg: var(--primary-color);
+  --btn-text: #ffffff;
+}
